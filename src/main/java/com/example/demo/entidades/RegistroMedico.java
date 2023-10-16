@@ -2,7 +2,6 @@ package com.example.demo.entidades;
 
 import java.time.LocalDateTime;
 
-import com.example.demo.enums.Especializacao;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

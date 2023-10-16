@@ -2,6 +2,7 @@ package com.example.demo.entidades;
 
 import com.example.demo.enums.Especializacao;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -29,6 +30,7 @@ public class Medidco {
 	@Enumerated(EnumType.STRING)
 	private Especializacao especializacao;
 	private String telefone;
+	@Column(unique = true) 
 	private String email;
 	private boolean ativo = true;
 	
